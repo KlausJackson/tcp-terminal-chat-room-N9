@@ -1,6 +1,6 @@
 # tcp-terminal-chat-room-N9
 
-Nhóm: 9
+Nhóm: 9 <br>
 Thành viên:
 1. Vũ Hà Vy - KlausJackson
 2. Lục Văn Thuận - lucthuan1601
@@ -12,7 +12,7 @@ Thành viên:
 8. Bùi Đức Hiệp - duchiephehe
 9. Đào Hải Phúc - phucduczz1234
 
-Giảng viên hướng dẫn: Nguyễn Thị Thu Hương
+Giảng viên hướng dẫn: Nguyễn Thị Thu Hương <br>
 Email liên hệ: [huongnt@tlu.edu.vn](mailto:huongnt@tlu.edu.vn)
 
 [Thảo luận, nêu ý kiến](https://github.com/KlausJackson/tcp-terminal-chat-room-N9/discussions)
