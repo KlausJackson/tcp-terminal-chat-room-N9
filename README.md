@@ -15,7 +15,7 @@ Thành viên:
 Giảng viên hướng dẫn: Nguyễn Thị Thu Hương <br>
 Email liên hệ: [huongnt@tlu.edu.vn](mailto:huongnt@tlu.edu.vn)
 
-[Thảo luận, nêu ý kiến](https://github.com/KlausJackson/tcp-terminal-chat-room-N9/discussions)
+[Thảo luận, nêu ý kiến](https://github.com/KlausJackson/tcp-terminal-chat-room-N9/discussions/1)
 
 
 
