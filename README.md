@@ -17,24 +17,24 @@ Email liên hệ: [huongnt@tlu.edu.vn](mailto:huongnt@tlu.edu.vn)
 
 [Thảo luận, nêu ý kiến](https://github.com/KlausJackson/tcp-terminal-chat-room-N9/discussions/1)
 
-Phân chia nhiệm vụ:
-1. Đặc tả Yêu cầu
-- Trương Tuấn Hải 
-- Trần Anh Đức
-- Lục Văn Thuận
+## Phân chia nhiệm vụ:
+### Đặc tả Yêu cầu
+  - Trương Tuấn Hải 
+  - Trần Anh Đức
+  - Lục Văn Thuận
 
-2. Phân tích & Thiết kế
-- Phương Văn Đức (thiết kế kiến trúc)
-- Bùi Đức Hiệp (thiết kế giao diện)
-- Trần Văn Hồng Quân (thiết kế kiến trúc)
+### Phân tích & Thiết kế
+  - Phương Văn Đức (thiết kế kiến trúc)
+  - Bùi Đức Hiệp (thiết kế giao diện)
+  - Trần Văn Hồng Quân (thiết kế kiến trúc)
 
-3. Lập trình
-- Vũ Hà Vy 
-- Đào Hải Phúc 
+### Lập trình
+  - Vũ Hà Vy 
+  - Đào Hải Phúc 
 
-4. Kiểm thử
-- Đào Hải Phúc
-- Hà Văn Phong
+### Kiểm thử
+  - Đào Hải Phúc
+  - Hà Văn Phong
 
 
 
