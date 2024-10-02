@@ -1,8 +1,6 @@
 # Nhiệm vụ
 
 1. Cải thiện html, css
-    abc
-    def
 2. Tìm hiểu nguyên nhân không gửi được video tới server.
 3. Xác thực danh tính chủ phòng (admin):
 
@@ -17,21 +15,21 @@
 Sprint 1
 
 1. Chặn người dùng
-  Cần thiết lập xác minh admin.
-  Đã có function nhưng chưa thiết lập áp dụng.
+      - Cần thiết lập xác minh admin.
+      - Đã có function nhưng chưa thiết lập áp dụng.
 
 2. Gửi tin nhắn riêng cho chủ phòng
-  Cần thiết lập xác minh admin.
-  Chưa có gì hết.
+      - Cần thiết lập xác minh admin.
+      - Chưa có gì hết.
 
 3. Hiển thị danh các thành viên trong phòng - DONE
 
 4. Chủ phòng thay đổi mật khẩu
-  Cần thiết lập xác minh admin.
-  Đã có function nhưng chưa thiết lập áp dụng.
+      - Cần thiết lập xác minh admin.
+      - Đã có function nhưng chưa thiết lập áp dụng.
 
 5. Thay đổi biệt danh
-  Chưa có gì hết.
+      - Chưa có gì hết.
 
 Tiến trình:
 
@@ -42,21 +40,21 @@ Tiến trình:
 Sprint 2
 
 6. Hiển thị các lệnh có sẵn
-  BỎ QUA vì làm giao diện nên không cần.
+      - BỎ QUA vì làm giao diện nên không cần.
 
 7. Hủy chặn người dùng
-  Cần thiết lập xác minh admin.
-  Đã có function nhưng chưa thiết lập áp dụng.
+      - Cần thiết lập xác minh admin.
+      - Đã có function nhưng chưa thiết lập áp dụng.
 
 8. Hiển thị danh sách những người bị chặn
-  Cần thiết lập xác minh admin.
-  Đã có function nhưng chưa thiết lập áp dụng.
+      - Cần thiết lập xác minh admin.
+      - Đã có function nhưng chưa thiết lập áp dụng.
 
 9. Đóng máy chủ từ xa
-  Chưa có gì hết.
+      - Chưa có gì hết.
 
 10. Lưu lịch sử tin nhắn
-  Đang thực hiện.
+      - Đang thực hiện.
 
 Tiến trình:
 
