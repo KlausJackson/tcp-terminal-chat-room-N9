@@ -2,6 +2,7 @@
 
 Nhóm: 9 <br>
 Thành viên:
+
 1. Vũ Hà Vy - KlausJackson
 2. Lục Văn Thuận - lucthuan1601
 3. Trần Văn Hồng Quân - quantr05
@@ -17,24 +18,25 @@ Email liên hệ: [huongnt@tlu.edu.vn](mailto:huongnt@tlu.edu.vn)
 
 [Thảo luận, nêu ý kiến](https://github.com/KlausJackson/tcp-terminal-chat-room-N9/discussions/1)
 
-## Phân chia nhiệm vụ:
+## Phân chia nhiệm vụ
+
 ### Đặc tả Yêu cầu
-  - Trương Tuấn Hải 
-  - Trần Anh Đức
-  - Lục Văn Thuận
+
+- Trương Tuấn Hải
+- Trần Anh Đức
+- Lục Văn Thuận
 
 ### Phân tích & Thiết kế
-  - Phương Văn Đức (thiết kế kiến trúc)
-  - Bùi Đức Hiệp (thiết kế giao diện)
-  - Trần Văn Hồng Quân (thiết kế kiến trúc)
+
+- Phương Văn Đức
+- Trần Văn Hồng Quân
+- Bùi Đức Hiệp
 
 ### Lập trình
-  - Vũ Hà Vy 
-  - Đào Hải Phúc 
+
+- Vũ Hà Vy
 
 ### Kiểm thử
-  - Đào Hải Phúc
-  - Hà Văn Phong
 
-
-
+- Đào Hải Phúc
+- Hà Văn Phong

@@ -1,7 +1,7 @@
 # Nhiệm vụ
 
-1. Cải thiện html, css cho giao diện đẹp hơn tý nếu có thể.
-2. Tìm hiểu nguyên nhân không gửi được video tới server.
+1. Cải thiện css cho giao diện đẹp hơn tý nếu có thể.
+2. Tìm hiểu nguyên nhân không gửi được video tới server. Cần biết vị trí mấy functions xử lý file thì hỏi.
 
 ## User Stories
 
