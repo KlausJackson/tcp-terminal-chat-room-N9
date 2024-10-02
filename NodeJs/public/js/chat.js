@@ -18,8 +18,45 @@ const locTemplate = document.querySelector('#location-template').innerHTML;
 const fileTemplate = document.querySelector('#file-template').innerHTML;
 const sidebarTemplate = document.querySelector('#sidebar-template').innerHTML;
 
-const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true }); // parse the query string
+const { username, room, password } = Qs.parse(location.search, { ignoreQueryPrefix: true }); // parse the query string
 // ignoreQueryPrefix : ignore the question mark in the query string.
+// const chatUrl = `/chat.html?username=${username}&room=${room}`;
+// window.location.href = chatUrl
+
+// Parse the current URL to get username and room
+const currentUrl = new URL(window.location.href);
+const urlParams = new URLSearchParams(currentUrl.search);
+
+const user = urlParams.get('username');
+const r = urlParams.get('room');
+const p = urlParams.get('password');
+
+if (p) {
+    urlParams.delete('password');
+    currentUrl.search = urlParams.toString(); // Update the URL's search property
+    window.history.pushState({}, '', currentUrl); // Update the browser's URL without reloading the page
+}
+
+
+
+// UX
+const autoscroll = () => {
+    const $newmsg = $messages.lastElementChild; // get the latest message
+    
+    const newmsg_styles = getComputedStyle($newmsg); 
+    const newmsg_margin = parseInt(newmsg_styles.marginBottom);
+    const newmsg_height = $newmsg.offsetHeight + newmsg_margin;
+    
+    const visible_height = $messages.offsetHeight; // get the height of the visible messages
+    const container_height = $messages.scrollHeight; // get the height of messages container
+    const scroll_offset = $messages.scrollTop + visible_height; 
+    // scroll offset : the distance from the top of the container to the bottom of the visible messages
+
+    if (container_height - newmsg_height <= scroll_offset) { // if the user is at the bottom
+        $messages.scrollTop = $messages.scrollHeight; // scroll to the bottom
+    }
+};
+
 
 
 // LISTEN FOR EVENTS FROM SERVER
@@ -31,7 +68,9 @@ socket.on('message', (message) => {
         time: message.time
     }); // render the template with the message
     $messages.insertAdjacentHTML('beforeend', html); // insert the message into the div
+    autoscroll();
 });
+
 
 // location
 socket.on('location', (location) => {
@@ -41,19 +80,13 @@ socket.on('location', (location) => {
         time: location.time
     });
     $messages.insertAdjacentHTML('beforeend', html);
+    autoscroll();
 });
+
 
 // files
 socket.on('file', ({ alias, name, data, time, isImage, isVideo }) => {
-    // 
     const html = Mustache.render(fileTemplate, {
-        // username: object.alias,
-        // filename: object.name,
-        // file: object.data,
-        // time: object.time,
-        // isImage: object.isImage,
-        // isVideo: object.isVideo
-
         username: alias,
         filename: name,
         file: data,
@@ -64,13 +97,16 @@ socket.on('file', ({ alias, name, data, time, isImage, isVideo }) => {
     console.log('file received from server');
     console.log(alias, name, isImage, isVideo);
     $messages.insertAdjacentHTML('beforeend', html);
+    autoscroll();
 });
+
 
 // banned
 socket.on('banned', () => {
     alert('You have been banned.');
     location.href = '/'; // redirect to the homepage
 });
+
 
 // user list
 socket.on('room', ({ room, users }) => {
@@ -165,9 +201,15 @@ function countdown(seconds) {
 };
 
 
-socket.emit('join', { username, room }, (error) => {
+
+
+// username, room get from the query string
+socket.emit('join', { username, room, password }, (error) => {
     if (error) {
         alert(error); 
         location.href = '/'; // redirect to the homepage
-    }
+    } 
 });
+
+
+
