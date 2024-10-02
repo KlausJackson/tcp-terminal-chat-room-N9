@@ -1,63 +1,51 @@
 # Nhiệm vụ
 
-1. Cải thiện html, css
+1. Cải thiện html, css cho giao diện đẹp hơn tý nếu có thể.
 2. Tìm hiểu nguyên nhân không gửi được video tới server.
-3. Xác thực danh tính chủ phòng (admin):
-
-- Sau khi người dùng nhập username admin, tìm cách hỏi mật khẩu (tạo thêm ô nhập mật khẩu trong phần login, ở trạng thái gốc sẽ có màu nhạt/mờ, nếu username là admin thì hiển thị màu như những ô khác)
-
-- Gửi username admin, password đã nhập, phòng chat tới server -> xác thực password (pass trong file users.js) trong phần EVENT HANDLING.
-  - Pass sai: xử lý giống trường hợp bị ban, quay trở về màn hình login.
-  - Pass đúng: cái này để từ từ em quyết xem anh hay em làm.
 
 ## User Stories
 
-Sprint 1
+### Sprint 1
 
 1. Chặn người dùng
-      - Cần thiết lập xác minh admin.
-      - Đã có function nhưng chưa thiết lập áp dụng.
+      - Đã có function nhưng chưa thiết lập áp dụng và thay đổi sidebar trong html để hiển thị được.
 
 2. Gửi tin nhắn riêng cho chủ phòng
-      - Cần thiết lập xác minh admin.
-      - Chưa có gì hết.
+      - BỎ QUA vì mất thời gian.
 
 3. Hiển thị danh các thành viên trong phòng - DONE
 
 4. Chủ phòng thay đổi mật khẩu
-      - Cần thiết lập xác minh admin.
-      - Đã có function nhưng chưa thiết lập áp dụng.
+      - Đã có function nhưng chưa thiết lập áp dụng và thay đổi sidebar trong html để hiển thị được.
 
-5. Thay đổi biệt danh
-      - Chưa có gì hết.
+5. Thay đổi biệt danh - DONE
 
-Tiến trình:
+**Tiến trình:**
 
-- Đã xong: 3
-- Đang làm: 1, 4,
-- Chưa làm: 2, 5
+- Đã xong: 3, 5, 2
+- Đang làm: 1, 4
+- Chưa làm:
 
-Sprint 2
+
+### Sprint 2
 
 6. Hiển thị các lệnh có sẵn
       - BỎ QUA vì làm giao diện nên không cần.
 
 7. Hủy chặn người dùng
-      - Cần thiết lập xác minh admin.
-      - Đã có function nhưng chưa thiết lập áp dụng.
+      - Đã có function nhưng chưa thiết lập áp dụng và thay đổi sidebar trong html để hiển thị được.
 
 8. Hiển thị danh sách những người bị chặn
-      - Cần thiết lập xác minh admin.
-      - Đã có function nhưng chưa thiết lập áp dụng.
+      - Đã có function nhưng chưa thiết lập áp dụng và thay đổi sidebar trong html để hiển thị được.
 
 9. Đóng máy chủ từ xa
-      - Chưa có gì hết.
+      - Chưa có gì hết và chưa thay đổi sidebar trong html để hiển thị được.
 
 10. Lưu lịch sử tin nhắn
-      - Đang thực hiện.
+      - BỎ QUA vì mất thời gian.
 
-Tiến trình:
+**Tiến trình:**
 
-- Đã xong: 6
+- Đã xong: 6, 10
 - Đang làm: 7, 8, 10
 - Chưa làm: 9
