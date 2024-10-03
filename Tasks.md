@@ -1,29 +1,27 @@
 # Nhiệm vụ
 
-1. Cải thiện css cho giao diện đẹp hơn tý nếu có thể.
-2. Tìm hiểu nguyên nhân không gửi được video tới server. Cần biết vị trí mấy functions xử lý file thì hỏi.
+1. Cải thiện css cho giao diện đẹp hơn nếu có thể.
+2. Tìm hiểu nguyên nhân không gửi được video tới server. Cần biết vị trí mấy functions thì hỏi.
 
 ## User Stories
 
 ### Sprint 1
 
 1. Chặn người dùng
-      - Đã có function nhưng chưa thiết lập áp dụng.
 
 2. Gửi tin nhắn riêng cho chủ phòng
       - BỎ QUA vì mất thời gian.
 
-3. Hiển thị danh các thành viên trong phòng - DONE
+3. Hiển thị danh các thành viên trong phòng
 
 4. Chủ phòng thay đổi mật khẩu
-      - Đã có function nhưng chưa thiết lập áp dụng.
 
 5. Thay đổi biệt danh - DONE
 
 **Tiến trình:**
 
-- Đã xong: 3, 5, 2
-- Đang làm: 1, 4
+- Đã xong: 3, 5, 2, 1, 4
+- Đang làm:
 - Chưa làm:
 
 
@@ -33,10 +31,8 @@
       - BỎ QUA vì làm giao diện nên không cần.
 
 7. Hủy chặn người dùng
-      - Đã có function nhưng chưa thiết lập áp dụng.
 
 8. Hiển thị danh sách những người bị chặn
-      - Đã có function nhưng chưa thiết lập áp dụng.
 
 9. Đóng máy chủ từ xa
       - Đã có function những chưa thiết lập áp dụng.
@@ -46,6 +42,6 @@
 
 **Tiến trình:**
 
-- Đã xong: 6, 10
-- Đang làm: 7, 8, 10, 9
+- Đã xong: 6, 10, 7, 8, 10
+- Đang làm: 9
 - Chưa làm:
