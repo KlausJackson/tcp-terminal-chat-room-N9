@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     transition: width 0.3s;
+    opacity: 0.9;
 }
 
 .sidebar button {
@@ -83,7 +84,7 @@ ul button {
 }
 .chat input {
     border: 1px solid #1e005d;
-    padding: 10px;
+
     outline: none;
     border-radius: 10px;
 }
@@ -93,8 +94,13 @@ ul button {
     color: #ffffff;
 }
 .index label {
+    font-size:20px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: #ffffff;
+    text-align: left;
+    
 }
+
 
 html {
     font-size: 16px;
@@ -117,7 +123,7 @@ label {
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
-    color: #777;
+    color: #000000;
 }
 
 button {
@@ -141,16 +147,12 @@ button:disabled {
     background: #1e005d;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 16px;
-}
+
 
 
 /* Join Page */
 .login-form {
-    background: url("/img/night_view.png"), #0e0024;
+    background: url("/img/background.jpg"), #0e0024;
     background-position: center;
     background-size: cover;
     width: 100vw;
@@ -164,18 +166,26 @@ button:disabled {
 }
 
 .box {
-    box-shadow: 0px 7px 17px 7px #1D1F26;
-    background: transparent;
-    padding: 10px;
+    background-image: url("/img/691303.jpg");
+    box-shadow: 0px 10px 17px 10px #555967;
+    /* background: transparent; */
+    padding: 20px;
     border-radius: 20px;
-    width: 250px;
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
+    width: 300px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 }
 
 .login-form button {
     width: 100%;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: fit-content;
+    padding: 5% 10% 5% 10%;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    box-shadow: 0px 0px 5px 5px #555967;
 }
 
 .login-form input {
@@ -183,26 +193,29 @@ button:disabled {
     width: 100%;
 }
 
-.input1, .input2, .input3 {
+.input1, .input2,.input3 {
     border-bottom: 2px solid #ffffff;
-    margin: 15px 0 15px 0;
+    margin: 5px 0 15px 0;
 }
 
-.input1 input, .input2 input, .input3 input {
-    background: transparent;
-    border: none;
+
+.input1 input, .input2 input,.input3 input {
+    border: 2px solid #7b6868;
+    border-radius: 10px;
+    /* background: transparent; */
+    /* border: none; */
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
-    padding: 0px;
+    padding: 5px 10px 5px 10px;
     outline: none;
 }
-
 
 
 /* Chat */
 .all {
     display: flex;
+    
 }
 
 .sidebar {
@@ -213,11 +226,15 @@ button:disabled {
 }
 
 
-.main {
+.main{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    background: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .all-messages {
@@ -227,18 +244,7 @@ button:disabled {
     
 }
 
-.sendfile {
-    display: right;
-    justify-content: space-between;
-    width: fit-content;
-    height: fit-content;
-}
 
-.sendtext {
-    display: right;
-    justify-content: space-between;
-    width: fit-content;
-}
 
 /* Message */
 .message {
@@ -262,35 +268,49 @@ button:disabled {
 
 
 /* Message Composition */
+
 .compose {
-    display: flex;
-    flex-shrink: 0;
-    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    padding: 10px; 
 }
 
-.compose form {
-    display: flex;
+.text-form {
+    display: flex; 
     flex-grow: 1;
 }
 
-.compose input {
-    border: 1px solid #eeeeee;
-    width: 60%;
-    padding: 0px;
-    margin: 10px 10px 0px 10px;
-    flex-grow: 1;
+.text-form input {
+    border: 1px solid #ffffff;
+    width: 100%; 
+    padding-left: 10px; 
+    color: #000000;
+    margin-right: 10px; 
 }
 
 .compose button {
-    font-size: 14px;
+    font-size: 14px; 
     padding: 10px;
     height: fit-content;
     width: fit-content;
 }
-
 .sendButton {
     margin-top: auto;
+    margin-right: 10px;
 }
+.sendfile {
+    display: right;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+}
+.buttons {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: auto;
+}
+ 
 
 
 /* Chat Sidebar */
