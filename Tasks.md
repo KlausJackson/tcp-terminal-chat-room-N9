@@ -8,15 +8,10 @@
 ### Sprint 1
 
 1. Chặn người dùng
-
-2. Gửi tin nhắn riêng cho chủ phòng
-      - BỎ QUA vì mất thời gian.
-
+2. Hủy chặn người dùng
 3. Hiển thị danh các thành viên trong phòng
-
 4. Chủ phòng thay đổi mật khẩu
-
-5. Thay đổi biệt danh - DONE
+5. Thay đổi biệt danh
 
 **Tiến trình:**
 
@@ -24,24 +19,17 @@
 - Đang làm:
 - Chưa làm:
 
-
 ### Sprint 2
 
-6. Hiển thị các lệnh có sẵn
-      - BỎ QUA vì làm giao diện nên không cần.
-
-7. Hủy chặn người dùng
-
-8. Hiển thị danh sách những người bị chặn
-
-9. Đóng máy chủ từ xa
+6. Hiển thị danh sách những người bị chặn
+7. Đóng máy chủ từ xa
       - Đã có function những chưa thiết lập áp dụng.
-
+8. Gửi file, chia sẻ vị trí
+9. Lưu log của máy chủ
 10. Lưu lịch sử tin nhắn
-      - BỎ QUA vì mất thời gian.
 
 **Tiến trình:**
 
-- Đã xong: 6, 10, 7, 8, 10
-- Đang làm: 9
-- Chưa làm:
+- Đã xong: 6
+- Đang làm: 8, 7
+- Chưa làm: 9, 10
