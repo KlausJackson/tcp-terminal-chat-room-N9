@@ -9,9 +9,9 @@
 
 1. Chặn người dùng
 2. Hủy chặn người dùng
-3. Hiển thị danh các thành viên trong phòng
+3. Hiển thị danh sách các thành viên trong phòng
 4. Chủ phòng thay đổi mật khẩu
-5. Thay đổi biệt danh
+5. Hiển thị danh sách những người bị chặn
 
 **Tiến trình:**
 
@@ -21,15 +21,15 @@
 
 ### Sprint 2
 
-6. Hiển thị danh sách những người bị chặn
+6. Tìm kiếm tin nhắn trong cuộc trò chuyện
 7. Đóng máy chủ từ xa
       - Đã có function những chưa thiết lập áp dụng.
-8. Gửi file, chia sẻ vị trí
+8. Gửi file, gửi ghi âm giọng nói, chia sẻ vị trí
 9. Lưu log của máy chủ
 10. Lưu lịch sử tin nhắn
 
 **Tiến trình:**
 
-- Đã xong: 6
-- Đang làm: 8, 7
-- Chưa làm: 9, 10
+- Đã xong: 
+- Đang làm: 
+- Chưa làm: 9, 10, 8, 7, 6
