@@ -19,6 +19,7 @@
 - Đang làm:
 - Chưa làm:
 
+
 ### Sprint 2
 
 6. Tìm kiếm tin nhắn trong cuộc trò chuyện
@@ -27,6 +28,7 @@
 8. Gửi file, gửi ghi âm giọng nói, chia sẻ vị trí
 9. Lưu log của máy chủ
 10. Lưu lịch sử tin nhắn
+      - BỎ QUA vì mất thời gian.
 
 **Tiến trình:**
 
